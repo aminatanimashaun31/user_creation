@@ -1,0 +1,5 @@
+alice; sudo,dev,users
+bob; dev,www-data
+carol; sudo,users
+dave; dev,www-data,users
+eve; sudo,dev,www-data,users
