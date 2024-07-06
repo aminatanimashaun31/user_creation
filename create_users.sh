@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-# Check if the input file is provided
+# check if the input file is provided.
 if [ -z "$1" ]; then
   echo "Usage: $0 <filename>"
   exit 1
