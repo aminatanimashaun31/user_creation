@@ -22,7 +22,7 @@ mkdir -p /var/secure
 touch $PASSWORD_FILE
 chmod 600 $PASSWORD_FILE
 
-# Function to generate a random password
+#The Function to generate a random password
 generate_password() {
   tr -dc A-Za-z0-9 </dev/urandom | head -c 16
 }
